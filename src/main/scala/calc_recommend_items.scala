@@ -15,7 +15,7 @@ object CalcRecommendItems{
 
   // 出力パラメータ
   val projectId = "ml20161121"
-  val outputDatasetId = "dataset"
+  val outputDatasetId = "work"
   val outputTableId = "outputdata"
   val outputTableSchema =
     "[{'name':'user_id','type':'STRING'},{'name':'item_id','type': 'STRING'},{'name': 'rating','type': 'FLOAT'}]"
